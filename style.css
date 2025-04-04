@@ -1,0 +1,58 @@
+.background{
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+    margin: 0px;
+}
+.background  #box1{
+    background-color: #6f4e37;
+    border-radius: 5px;
+    height: 160px;
+    width: 160px;
+    font-size: 150px;
+    text-align: center;
+    font-style: italic;
+
+    position: absolute;
+    top:50%;
+    left: 60%;
+
+    animation: B;
+    animation-play-state: running;
+    animation-iteration-count: 1;
+    animation-delay: 0s;
+    animation-timing-function: linear;
+    animation-duration: 4s;
+    }
+@keyframes B{
+    from{margin-top: 100%;}
+    to{margin-bottom:0%;}
+}
+
+.items{
+    display:  inline-block;
+
+    left: 40%;
+    margin: 5px;
+}
+
+.items img{
+    height: 80px;
+    width: 80px;
+}
+.items .description{
+    text-align: center;
+    padding: 10px;
+}
+
+.background #Ibackgrund {
+    border-radius: 10px;
+    border: 5px solid;
+    height: 500px;
+    width: 500px;
+    background-color:rgba(193, 154, 107, 0.5);
+    position: absolute;
+    top: 50%;
+    left: 50%;
+}
