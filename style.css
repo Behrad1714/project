@@ -22,8 +22,8 @@ body{
     text-align: center;
     font-style: italic;
     position: relative;
-    top: 80px;
-    left: 80px;
+    top: 40px;
+    left: 190px;
 
     animation: box;
     animation-play-state: running;
@@ -40,10 +40,10 @@ body{
 
 #box2{
     border-radius: 10px;
-    height: 600px;
-    width: 600px;
+    height: 400px;
+    width: 400px;
     background-color: rgba(112, 66, 20, 0.5);
-    margin-left: 20%;
+    margin-left: 50px;
     margin-top: 10%;
 }
 
@@ -51,14 +51,14 @@ body{
 .items{
     display: inline-block;
     margin: 10px;
-    width: 100px;
-    margin-right: 85px;
+    width: 80px;
+    margin-right: 100px;
 }
 .items .description{
     padding: 10px;
-    font-size: xx-large;
+    font-size: large;
     text-align: center;
-    margin-left: 60px;
+    margin-left: 50px;
 }
 .items img{
     width: 100%;
